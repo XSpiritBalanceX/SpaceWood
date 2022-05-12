@@ -1,0 +1,143 @@
+body {background-image: url('../images/use_your_illusion.png') ;
+    font-family: "Work Sans", Arial, sans-serif;
+    max-width: 2000px;
+margin-left: auto;
+margin-right: auto;}
+a {text-decoration:none !important; 
+   color:white !important}
+#space{font-size:30px; }
+#wood{color:#a3816a;}
+.navic{float:right; 
+   margin:10px 50px 0 0;}
+.nazv{float:left;
+    margin:10px 0 0 50px;
+    font-weight:bold}
+#navig{position:absolute; 
+   font-size:35px;
+   transition:0.3s;
+   cursor: pointer;
+z-index: 2;}
+#navig:hover {transform: scale(1.2);}
+.contaner {background-image: url('../images/bg_3.jpg') ; 
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center; position: absolute; top: 0;left: 0;bottom: 0;
+      height: 100%;
+      width: 100%; display: none;}
+  .contaner:after{
+      content: '';
+      position: absolute;top: 0;left: 0;right: 0;bottom: 0;
+      background: black;
+      opacity: 0.5; z-index:1;}
+  .menu a {text-decoration:none; }
+  #krest {position:absolute; top: 50px;right: 70px;
+     color:white;
+      font-size:20px; 
+       z-index:2;
+        transition:0.3s;}
+  #krest:hover {transform: scale(1.5);}
+  .osnova{border:solid white 1px;
+     margin:20px; 
+     height: 94%; 
+     display: flex;
+     align-items: center;
+     justify-content: center;}
+  .menu { z-index:2;margin-top: -90px;}
+  .menu h1 {color:white; 
+    font-size:60px;
+margin-top: 100px !important;}
+  .menu .active:focus {color: #a3816a !important;}
+  #wood{color:#a3816a;}
+  .menu li {list-style-type: none; 
+    display: list-item; 
+    text-align: center; 
+    font-size:25px;
+    font-weight:bold;
+     margin-bottom:20px;
+      margin-left:-10px !important;
+      border: none;}
+      .menu ul{margin-top: 80px !important;}
+  .active {color:white;}
+  .menu h1 {font-size: 60px !important;}
+  .info{float:left;}
+  #one{background-image: url('../images/work-1.jpg')}
+  #two {background-image: url('../images/work-2.jpg')}
+  #there {background-image: url('../images/work-3.jpg')}
+  #four {background-image: url('../images/work-4.jpg')}
+  #fife {background-image: url('../images/work-5.jpg')}
+  #one, #two, #there, #four, #fife {background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:500px;
+    background-position: 330px 0px;
+z-index: 0; }
+.owl-carousel {width: 95% !important; height: 102% !important; z-index: 0;}
+.d-block {position: relative;}
+.d-block svg{color: black;
+width: 20px;
+height: 20px;}
+.d-block .sv_pl {position: absolute; top:100px;left:87%;
+border: solid white 1px;
+padding: 23px 25px 23px 25px;
+background-color:white ;
+border-radius: 50%;}
+.info {width: 600px;
+z-index: 1;
+margin-left: 40px;}
+.info h1 {font-size: 80px;
+margin-top: 150px;}
+.firs_word{font-size: 17px;
+          margin-top: -30px;}
+.fir {font-size: 12px;
+      font-weight: bold;
+    margin-top: 50px; }
+.second_word {color: #6b6767;
+margin-top: 50px;
+width: 270px;}
+svg {color: white;}
+footer {position: relative; z-index: 1;}
+footer li{display: inline;
+    list-style-type: none; }
+footer ul{position:absolute; left:85%; bottom: 5%;}
+footer p{color: white;
+position: absolute;bottom: 5%;}
+.btn {background: transparent; border: none;}
+.btn svg {width: 18px;
+height: 18px;}
+#color{color: #a3816a !important;}
+#sofa{margin-top: -30px;}
+#chair, #wooden, #cel_chair, #water {margin-top: -100px ; }
+#chair .second_word, #water .second_word {margin-top: 50px;}
+
+@media all and (max-width: 60em){
+    #one, #two, #there, #four, #fife{background-position: 0 0;}
+    footer li{display: inline;}  
+    footer ul{position:absolute; left:80%; bottom: 5%;}
+    .d-block {margin-left: 20px;}
+    .info { width: 80%;} 
+    .info h1, .firs_word, .fir {text-align: center; }
+    .second_word {text-align: center; 
+         width: 100%;}
+    footer p{width: 60%;}
+    .menu h1 { margin-top: 80px !important; margin-bottom: -40px !important; }
+     .menu li {margin-bottom: 10px;}
+     #krest {position:absolute; top: 20px !important;right: 40px !important;}
+     .info { margin-left: 5px;}
+     .info h1 {font-size: 50px;}
+        .firs_word{font-size: 10px;}
+        .second_word{font-size: 10px;}
+        .fir {font-size: 10px; }
+        .d-block .sv_pl {position: absolute; top:100px;left:84%;
+            padding: 8px 10px 8px 10px;}
+            .d-block svg{color: black;
+                width: 15px;
+                height: 15px;}
+                .btn svg {width: 13px;
+                    height: 13px;}
+                    footer li {margin-right: -10px;}
+}
+@media all and (max-width: 40em){
+    footer ul{position:absolute; left:60%; bottom: 5%;} 
+    .d-block {margin-right: 20px;}
+    #krest {position: absolute; right: 30px; top:20px}  
+}
